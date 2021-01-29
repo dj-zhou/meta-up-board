@@ -8,6 +8,7 @@ require upboard-image-base.inc
 
 IMAGE_INSTALL += "libev"
 IMAGE_INSTALL += "iwd"
+IMAGE_INSTALL += "util-linux" # lsblk command
 
 # remove some packages
 PACKAGE_EXCLUDE = "dmidecode"
