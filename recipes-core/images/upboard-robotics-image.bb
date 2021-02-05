@@ -8,6 +8,8 @@ require upboard-image-base.inc
 
 IMAGE_INSTALL += "libev"
 IMAGE_INSTALL += "iwd"
+IMAGE_INSTALL += "bash bash-completion"
+IMAGE_INSTALL += "htop"
 # lsblk command
 IMAGE_INSTALL += "util-linux"
 
